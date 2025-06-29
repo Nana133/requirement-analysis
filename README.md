@@ -62,3 +62,44 @@ Examples:
 - The interface must be responsive and work seamlessly on mobile, tablet, and desktop devices.
 - The system must support at least 10,000 concurrent users during peak hours.
 
+
+
+## Use Case Diagrams
+
+Use case diagrams are visual representations of the interactions between users (actors) and a system. They help identify the **functional requirements** by showing what users can do with the system. These diagrams provide a clear and simple way to understand the scope of the system and its key functionalities.
+
+### Benefits of Use Case Diagrams:
+- Clarify system requirements early in development
+- Communicate user expectations and system behavior
+- Provide a high-level view of the system for stakeholders
+- Serve as a guide for development and testing
+
+### Booking System – Use Case Diagram
+
+![Booking Use Case Diagram](alx-booking-uc.png)
+
+
+
+
+## Acceptance Criteria
+
+Acceptance Criteria are a set of conditions that a software product must satisfy to be accepted by a user, customer, or other stakeholders. In Requirement Analysis, they help ensure that all stakeholders agree on the behavior and expectations of a specific feature before development begins.
+
+### Why Acceptance Criteria Matter:
+- Define clear and testable goals for features
+- Prevent misunderstandings between developers and stakeholders
+- Serve as the basis for writing test cases
+- Support Agile and iterative development
+
+### Example: Checkout Feature – Booking Management System
+
+**Feature:** Checkout
+
+**Acceptance Criteria:**
+- The user must be able to review selected booking details before proceeding to payment.
+- The system should allow the user to choose a preferred payment method (e.g., card, mobile money).
+- The payment process must be secure and confirm the transaction within 5 seconds.
+- The user must receive a booking confirmation page and email after successful checkout.
+- If payment fails, the system should display an appropriate error message and allow retry.
+
+
